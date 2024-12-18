@@ -31,6 +31,27 @@
   img {
     width: 80%;
   }
+button {
+  background:#4ECCA3 ;
+  text-shadow: 5px 0 #232931;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  /* font-family: "Monaco", monospace; */
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin: 2px;
+  display: block;
+  margin: 32px auto 0 auto;
+  padding: 0 16px;
+}
+button:hover {
+  background:#276852;
+}
   footer {
     margin-top: 5%;
     color: #EEEEEE;
